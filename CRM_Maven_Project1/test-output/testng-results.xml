@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43" started-at="2021-10-19T06:55:03 IST" finished-at="2021-10-19T06:55:03 IST">
+  <suite name="Default suite" duration-ms="46" started-at="2021-10-19T16:52:00 IST" finished-at="2021-10-19T16:52:00 IST">
     <groups>
-      <group name="smoke testing">
-        <method signature="OrgTest.createOrgTest()[pri:0, instance:com.crm.orgTest.OrgTest@6ee52dcd]" name="createOrgTest" class="com.crm.orgTest.OrgTest"/>
-      </group> <!-- smoke testing -->
     </groups>
-    <test name="Test" duration-ms="43" started-at="2021-10-19T06:55:03 IST" finished-at="2021-10-19T06:55:03 IST">
-      <class name="com.crm.orgTest.OrgTest">
-        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.crm.orgTest.OrgTest@6ee52dcd]" name="createOrgTest" duration-ms="0" started-at="2021-10-19T06:55:03 IST" finished-at="2021-10-19T06:55:03 IST">
+    <test name="Default test" duration-ms="46" started-at="2021-10-19T16:52:00 IST" finished-at="2021-10-19T16:52:00 IST">
+      <class name="com.crm.contactTest.SampleTest">
+        <test-method status="PASS" signature="sampleTest()[pri:0, instance:com.crm.contactTest.SampleTest@27a8c74e]" name="sampleTest" duration-ms="15" started-at="2021-10-19T16:52:00 IST" finished-at="2021-10-19T16:52:00 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrgTest -->
-      </class> <!-- com.crm.orgTest.OrgTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- sampleTest -->
+      </class> <!-- com.crm.contactTest.SampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
